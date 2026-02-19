@@ -1,0 +1,133 @@
+.page-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    min-height: 100vh;
+}
+
+.breadcrumb {
+    margin-bottom: 20px;
+}
+
+.breadcrumb a {
+    color: #2c3e50;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    border-bottom: 1px solid transparent;
+}
+
+.breadcrumb a:hover {
+    border-bottom: 1px solid #2c3e50;
+}
+
+.page-content {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.page-header {
+    text-align: center;
+    margin-bottom: 32px;
+    padding-bottom: 24px;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.page-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 12px;
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+.page-description {
+    font-size: 1.05rem;
+    color: #7f8c8d;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.demo-area {
+    background: #f8f9fa;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.machine-info {
+    background: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    padding: 32px;
+}
+
+.machine-info h3 {
+    margin-top: 0;
+    color: #2c3e50;
+    font-size: 1.5rem;
+    margin-bottom: 16px;
+    font-weight: 600;
+}
+
+.machine-info p {
+    color: #7f8c8d;
+    line-height: 1.8;
+    margin-bottom: 16px;
+}
+
+.machine-info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.machine-info li {
+    padding: 10px 0;
+    color: #7f8c8d;
+    line-height: 1.6;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.machine-info li:last-child {
+    border-bottom: none;
+}
+
+.machine-info code {
+    background: #f0f0f0;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-family: "Courier New", monospace;
+    color: #2c3e50;
+    font-size: 0.9em;
+}
+
+.machine-info strong {
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .page-container {
+        padding: 24px 16px;
+    }
+
+    .page-header h1 {
+        font-size: 2rem;
+    }
+
+    .demo-area {
+        padding: 24px 16px;
+    }
+
+    .machine-info {
+        padding: 24px 16px;
+    }
+}

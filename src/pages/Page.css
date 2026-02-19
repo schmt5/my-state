@@ -1,0 +1,170 @@
+.page-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.page-header {
+    text-align: center;
+    margin-bottom: 40px;
+    padding-bottom: 24px;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.page-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 12px;
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+.page-description {
+    font-size: 1.05rem;
+    color: #7f8c8d;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.back-link {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #2c3e50;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 8px 0;
+    border-bottom: 1px solid transparent;
+}
+
+.back-link:hover {
+    border-bottom: 1px solid #2c3e50;
+}
+
+.example-card {
+    background: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    padding: 32px;
+    margin-bottom: 32px;
+}
+
+.code-section {
+    background: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    padding: 32px;
+    margin-bottom: 32px;
+}
+
+.code-section h2 {
+    margin: 0 0 20px 0;
+    color: #2c3e50;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.code-block {
+    background: #2c3e50;
+    color: #ecf0f1;
+    border-radius: 4px;
+    padding: 20px;
+    margin: 0;
+    overflow-x: auto;
+    font-family: "Courier New", monospace;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    border: 1px solid #34495e;
+}
+
+.demo-area {
+    background: #f8f9fa;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    padding: 40px;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Traffic Light Styles */
+.traffic-light {
+    background: #34495e;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border: 2px solid #2c3e50;
+}
+
+.light {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    opacity: 0.3;
+    border: 2px solid #2c3e50;
+}
+
+.light.active {
+    opacity: 1;
+}
+
+.light.red {
+    background: #e74c3c;
+}
+
+.light.yellow {
+    background: #f39c12;
+}
+
+.light.green {
+    background: #2ecc71;
+}
+
+/* Action Button */
+.action-button {
+    background: #2c3e50;
+    color: white;
+    border: 1px solid #2c3e50;
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.action-button:hover {
+    background: #34495e;
+    border-color: #34495e;
+}
+
+.action-button:active {
+    background: #1a252f;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .page-container {
+        padding: 24px 16px;
+    }
+
+    .page-header h1 {
+        font-size: 2rem;
+    }
+
+    .example-card,
+    .code-section {
+        padding: 24px 16px;
+    }
+
+    .demo-area {
+        padding: 24px 16px;
+    }
+
+    .light {
+        width: 60px;
+        height: 60px;
+    }
+}
