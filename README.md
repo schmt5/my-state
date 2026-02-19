@@ -13,24 +13,16 @@ npm run dev
 
 (If the inspector window doesn't open, check your popup blocker)
 
-## 🌐 Embedding Your App
+## 🌐 Embedding in Notion
 
-This app is **fully embeddable** using standard HTML iframes - no service needed!
+This app is **embeddable in Notion**!
 
 **Quick start:**
-1. Update your Vercel URL in `index.html` and `public/oembed.json`
-2. Deploy to Vercel
-3. Use: `<iframe src="https://your-app.vercel.app" width="100%" height="600px"></iframe>`
+1. In Notion, type `/embed`
+2. Paste: `https://my-state.vercel.app`
+3. Press Enter
 
-**What you get:**
-- ✅ Direct iframe embedding (works everywhere, free)
-- ✅ Rich social media preview cards (Twitter, LinkedIn, Facebook)
-- ✅ No API keys or subscriptions needed
-
-**Docs:**
-- `EMBEDDING-SUMMARY.md` - Quick overview (start here!)
-- `DIRECT-EMBEDDING.md` - Complete embedding guide for all platforms
-- `IFRAMELY-QUICK-START.md` - Explains Iframely vs direct embedding
+**Docs:** See `NOTION-EMBED.md` for details
 
 ## 📦 What's Included
 
@@ -239,8 +231,7 @@ export const dataMachine = createMachine({
 ## 🎨 Features
 
 ✅ **Stately Inspector** - Official real-time visualization in separate window ⭐  
-✅ **Direct iframe Embedding** - Works everywhere with standard HTML 🌐  
-✅ **Social Media Previews** - Rich preview cards on Twitter, LinkedIn, Facebook  
+✅ **Notion Embedding** - Works in Notion with `/embed` command 🌐  
 ✅ Three complete XState machine examples  
 ✅ Dual visualization (Inspector + React component)  
 ✅ Interactive controls  
@@ -248,8 +239,7 @@ export const dataMachine = createMachine({
 ✅ TypeScript-ready (add types as needed)  
 ✅ React 19 with React Compiler  
 ✅ Hot Module Replacement (HMR)  
-✅ Production-ready build setup  
-✅ Open Graph & Twitter Card meta tags
+✅ Production-ready build setup
 
 ## 🐛 Troubleshooting
 
@@ -289,4 +279,4 @@ This project is a learning template - use it however you like!
 
 For complete visualization options, see **`VISUALIZATION.md`**  
 For setup help, see **`SETUP.md`**  
-For embedding your app, see **`EMBEDDING-SUMMARY.md`** and **`DIRECT-EMBEDDING.md`**
+For Notion embedding, see **`NOTION-EMBED.md`**
