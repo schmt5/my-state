@@ -1,0 +1,16 @@
+{
+  "version": "1.0",
+  "type": "rich",
+  "title": "XState v5 + React Demo | Interactive State Machines",
+  "author_name": "XState Demo",
+  "author_url": "https://your-app.vercel.app/",
+  "provider_name": "XState Demo",
+  "provider_url": "https://your-app.vercel.app/",
+  "cache_age": 3600,
+  "thumbnail_url": "",
+  "thumbnail_width": 1200,
+  "thumbnail_height": 630,
+  "width": 1280,
+  "height": 720,
+  "html": "<iframe src=\"https://your-app.vercel.app/\" width=\"1280\" height=\"720\" frameborder=\"0\" allowfullscreen allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\"></iframe>"
+}

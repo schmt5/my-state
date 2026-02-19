@@ -13,16 +13,24 @@ npm run dev
 
 (If the inspector window doesn't open, check your popup blocker)
 
-## 🌐 Iframely Integration
+## 🌐 Embedding Your App
 
-This app is **ready for Iframely** embeds! It includes Open Graph meta tags for rich URL previews.
+This app is **fully embeddable** using standard HTML iframes - no service needed!
 
-**Quick setup:**
-1. See `IFRAMELY-CHECKLIST.md` for 5-minute setup
-2. Update your Vercel URL in `index.html`
-3. Test at https://iframely.com/try
+**Quick start:**
+1. Update your Vercel URL in `index.html` and `public/oembed.json`
+2. Deploy to Vercel
+3. Use: `<iframe src="https://your-app.vercel.app" width="100%" height="600px"></iframe>`
 
-Full docs: `IFRAMELY.md`
+**What you get:**
+- ✅ Direct iframe embedding (works everywhere, free)
+- ✅ Rich social media preview cards (Twitter, LinkedIn, Facebook)
+- ✅ No API keys or subscriptions needed
+
+**Docs:**
+- `EMBEDDING-SUMMARY.md` - Quick overview (start here!)
+- `DIRECT-EMBEDDING.md` - Complete embedding guide for all platforms
+- `IFRAMELY-QUICK-START.md` - Explains Iframely vs direct embedding
 
 ## 📦 What's Included
 
@@ -231,7 +239,8 @@ export const dataMachine = createMachine({
 ## 🎨 Features
 
 ✅ **Stately Inspector** - Official real-time visualization in separate window ⭐  
-✅ **Iframely Integration** - Ready for rich embeds and URL previews 🌐  
+✅ **Direct iframe Embedding** - Works everywhere with standard HTML 🌐  
+✅ **Social Media Previews** - Rich preview cards on Twitter, LinkedIn, Facebook  
 ✅ Three complete XState machine examples  
 ✅ Dual visualization (Inspector + React component)  
 ✅ Interactive controls  
@@ -240,7 +249,7 @@ export const dataMachine = createMachine({
 ✅ React 19 with React Compiler  
 ✅ Hot Module Replacement (HMR)  
 ✅ Production-ready build setup  
-✅ Open Graph meta tags for social sharing
+✅ Open Graph & Twitter Card meta tags
 
 ## 🐛 Troubleshooting
 
@@ -280,4 +289,4 @@ This project is a learning template - use it however you like!
 
 For complete visualization options, see **`VISUALIZATION.md`**  
 For setup help, see **`SETUP.md`**  
-For Iframely integration, see **`IFRAMELY.md`** and **`IFRAMELY-CHECKLIST.md`**
+For embedding your app, see **`EMBEDDING-SUMMARY.md`** and **`DIRECT-EMBEDDING.md`**

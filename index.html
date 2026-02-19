@@ -11,7 +11,7 @@
         />
 
         <!-- Open Graph / Facebook -->
-        <meta property="og:type" content="website" />
+        <meta property="og:type" content="video.other" />
         <meta property="og:url" content="https://your-app.vercel.app/" />
         <meta
             property="og:title"
@@ -21,9 +21,17 @@
             property="og:description"
             content="Interactive XState v5 state machine examples with real-time Stately Inspector visualization. Explore toggle, traffic light, and counter machines with live diagrams."
         />
+        <meta property="og:video" content="https://your-app.vercel.app/" />
+        <meta
+            property="og:video:secure_url"
+            content="https://your-app.vercel.app/"
+        />
+        <meta property="og:video:type" content="text/html" />
+        <meta property="og:video:width" content="1280" />
+        <meta property="og:video:height" content="720" />
 
         <!-- Twitter -->
-        <meta property="twitter:card" content="summary" />
+        <meta property="twitter:card" content="player" />
         <meta property="twitter:url" content="https://your-app.vercel.app/" />
         <meta
             property="twitter:title"
@@ -33,11 +41,25 @@
             property="twitter:description"
             content="Interactive XState v5 state machine examples with real-time Stately Inspector visualization. Explore toggle, traffic light, and counter machines with live diagrams."
         />
+        <meta
+            property="twitter:player"
+            content="https://your-app.vercel.app/"
+        />
+        <meta property="twitter:player:width" content="1280" />
+        <meta property="twitter:player:height" content="720" />
 
         <!-- Iframely / oEmbed -->
-        <meta name="iframely:card" content="player" />
-        <meta name="iframely:width" content="1280" />
-        <meta name="iframely:height" content="720" />
+        <link
+            rel="alternate"
+            type="application/json+oembed"
+            href="https://your-app.vercel.app/oembed.json"
+            title="XState v5 + React Demo"
+        />
+        <meta
+            name="twitter:player:stream"
+            content="https://your-app.vercel.app/"
+        />
+        <meta name="twitter:player:stream:content_type" content="text/html" />
     </head>
     <body>
         <div id="root"></div>
