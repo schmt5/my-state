@@ -13,6 +13,17 @@ npm run dev
 
 (If the inspector window doesn't open, check your popup blocker)
 
+## 🌐 Iframely Integration
+
+This app is **ready for Iframely** embeds! It includes Open Graph meta tags for rich URL previews.
+
+**Quick setup:**
+1. See `IFRAMELY-CHECKLIST.md` for 5-minute setup
+2. Update your Vercel URL in `index.html`
+3. Test at https://iframely.com/try
+
+Full docs: `IFRAMELY.md`
+
 ## 📦 What's Included
 
 ### 🎯 What You Get
@@ -220,6 +231,7 @@ export const dataMachine = createMachine({
 ## 🎨 Features
 
 ✅ **Stately Inspector** - Official real-time visualization in separate window ⭐  
+✅ **Iframely Integration** - Ready for rich embeds and URL previews 🌐  
 ✅ Three complete XState machine examples  
 ✅ Dual visualization (Inspector + React component)  
 ✅ Interactive controls  
@@ -228,6 +240,7 @@ export const dataMachine = createMachine({
 ✅ React 19 with React Compiler  
 ✅ Hot Module Replacement (HMR)  
 ✅ Production-ready build setup  
+✅ Open Graph meta tags for social sharing
 
 ## 🐛 Troubleshooting
 
@@ -266,4 +279,5 @@ This project is a learning template - use it however you like!
 **Happy State Machine Building!** 🎉
 
 For complete visualization options, see **`VISUALIZATION.md`**  
-For setup help, see **`SETUP.md`**
+For setup help, see **`SETUP.md`**  
+For Iframely integration, see **`IFRAMELY.md`** and **`IFRAMELY-CHECKLIST.md`**
